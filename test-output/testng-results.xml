@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-14T07:51:44 IST" name="Suite" finished-at="2026-09-14T07:53:07 IST" duration-ms="82817">
+    <groups>
+    </groups>
+    <test started-at="2026-09-14T07:51:44 IST" name="Test" finished-at="2026-09-14T07:53:07 IST" duration-ms="82817">
+      <class name="testpkg.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:34 IST" name="setUp" finished-at="2026-09-14T07:52:40 IST" duration-ms="5883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:40 IST" name="loginTest" data-provider="loginData" finished-at="2026-09-14T07:52:42 IST" duration-ms="1819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:42 IST" name="tearDown" finished-at="2026-09-14T07:52:42 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:42 IST" name="setUp" finished-at="2026-09-14T07:52:52 IST" duration-ms="9930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:52 IST" name="loginTest" data-provider="loginData" finished-at="2026-09-14T07:52:56 IST" duration-ms="4130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:56 IST" name="tearDown" finished-at="2026-09-14T07:52:57 IST" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:52:57 IST" name="setUp" finished-at="2026-09-14T07:53:04 IST" duration-ms="7018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:53:04 IST" name="loginTest" data-provider="loginData" finished-at="2026-09-14T07:53:06 IST" duration-ms="2389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Membership]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NeuPass]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.LoginTest@65e98b1c]" started-at="2026-09-14T07:53:06 IST" name="tearDown" finished-at="2026-09-14T07:53:07 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.LoginTest@65e98b1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpkg.LoginTest -->
+      <class name="testpkg.BookAStayTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:12 IST" name="setUp" finished-at="2026-09-14T07:52:18 IST" duration-ms="6265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookAStayTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:18 IST" name="bookAStayTest" data-provider="bookingData" finished-at="2026-09-14T07:52:22 IST" duration-ms="4257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taj Malabar Resort & Spa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAStayTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:22 IST" name="tearDown" finished-at="2026-09-14T07:52:23 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookAStayTest status=SUCCESS method=BookAStayTest.bookAStayTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.BookAStayTest@1ff4931d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:23 IST" name="setUp" finished-at="2026-09-14T07:52:30 IST" duration-ms="7595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookAStayTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:30 IST" name="bookAStayTest" data-provider="bookingData" finished-at="2026-09-14T07:52:34 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taj Kumarakom Resort & Spa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAStayTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.BookAStayTest@1ff4931d]" started-at="2026-09-14T07:52:34 IST" name="tearDown" finished-at="2026-09-14T07:52:34 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookAStayTest status=SUCCESS method=BookAStayTest.bookAStayTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testpkg.BookAStayTest@1ff4931d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpkg.BookAStayTest -->
+      <class name="testpkg.HomePageTest">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:testpkg.HomePageTest@2a5c8d3f]" started-at="2026-09-14T07:51:44 IST" name="setUpReport" finished-at="2026-09-14T07:51:44 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.HomePageTest@2a5c8d3f]" started-at="2026-09-14T07:51:44 IST" name="setUp" finished-at="2026-09-14T07:51:53 IST" duration-ms="8944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homeTest()[pri:0, instance:testpkg.HomePageTest@2a5c8d3f]" started-at="2026-09-14T07:51:53 IST" name="homeTest" finished-at="2026-09-14T07:52:11 IST" duration-ms="17918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testpkg.HomePageTest@2a5c8d3f]" started-at="2026-09-14T07:52:11 IST" name="tearDown" finished-at="2026-09-14T07:52:11 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeTest status=SUCCESS method=HomePageTest.homeTest()[pri:0, instance:testpkg.HomePageTest@2a5c8d3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testpkg.HomePageTest@2a5c8d3f]" started-at="2026-09-14T07:53:07 IST" name="flushReport" finished-at="2026-09-14T07:53:07 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testpkg.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
